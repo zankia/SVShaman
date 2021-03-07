@@ -1,0 +1,20 @@
+name: @name@
+main: @main@
+description: @description@
+version: @version@
+api-version: @api@
+author: @author@
+
+commands:
+  svshaman:
+    description: Plugin management command.
+    aliases: [svs]
+    usage: /svshaman reload
+    permission: svshaman.admin
+
+permissions:
+  svshaman.*:
+    children:
+      svshaman.admin: true
+  svshaman.admin:
+    description: Allows managing the plugin.

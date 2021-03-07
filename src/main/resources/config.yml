@@ -1,0 +1,23 @@
+prefix: "[&aSVShaman&f] "
+effects:
+    GRASS:
+    - speed:
+        duration: 15
+        amplifier: 3
+        timeout: 0
+    - jump:
+        duration: 15
+        amplifier: 3
+        timeout: 0
+    - confusion:
+        duration: 15
+        amplifier: 1
+        timeout: 10
+    - poison:
+        duration: 5
+        amplifier: 1
+        timeout: 13
+    - hunger:
+        duration: 20
+        amplifier: 1
+        timeout: 18
